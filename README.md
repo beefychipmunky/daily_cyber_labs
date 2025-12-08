@@ -40,7 +40,8 @@ It serves as both a personal learning system and a public portfolio for recruite
 
 | Date | Lab Name | Description |
 |------|----------|-------------|
-| 2025-12-08 | Basic Nmap Host Discovery | Network scanning, port states, service detection |
+| 2025-12-08 | Basic Nmap Host Discovery & Port Scanning | Network scanning, host discovery, SSH exposure analysis |
+
 
 (New labs are added daily.)
 
