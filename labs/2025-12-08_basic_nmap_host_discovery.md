@@ -65,6 +65,7 @@ Result:
 22/tcp open ssh
 
 6. Performed Service Version Detection
+https://github.com/beefychipmunky/daily_cyber_labs/blob/main/labs/screenshots/nmap_sV_scan.png?raw=true
 ~ sudo nmap -sV 10.0.2.16
 Result:
 OpenSSH 10.0p2 Debian 5 (protocol 2.0)
