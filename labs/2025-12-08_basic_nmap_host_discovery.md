@@ -48,7 +48,7 @@ Three hosts detected:
 - 10.0.2.2 – NAT gateway
 - 10.0.2.3 – VirtualBox internal host
 - 10.0.2.16 – My Kali VM
-
+https://github.com/beefychipmunky/daily_cyber_labs/blob/main/labs/screenshots/ping_nmap_scan.png?raw=true
 3. Scanned My Kali VM (Initial Scan)
 ~ sudo nmap 10.0.2.16
 Result:
