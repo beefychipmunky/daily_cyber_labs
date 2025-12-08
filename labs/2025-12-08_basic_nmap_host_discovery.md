@@ -37,18 +37,19 @@ Network: 10.0.2.0/24
 
 ## 🔎 Steps Performed  
 
-### **1. Verified Network Connectivity**
+1. Verified Network Connectivity
+~ ping -c 4 10.0.2.2
 
-ping -c 4 10.0.2.2
-
-2. Discovered Hosts on the Network
-sudo nmap -sn 10.0.2.0/24
+3. Discovered Hosts on the Network
+~ sudo nmap -sn 10.0.2.0/24
 Result:
 Three hosts detected:
 - 10.0.2.2 – NAT gateway
 - 10.0.2.3 – VirtualBox internal host
 - 10.0.2.16 – My Kali VM
-https://github.com/beefychipmunky/daily_cyber_labs/blob/main/labs/screenshots/ping_nmap_scan.png?raw=true
+
+![ping_gateway, nmap_ping_sweep, nmap_initial_scan](https://github.com/beefychipmunky/daily_cyber_labs/blob/main/labs/screenshots/ping_nmap_scan.png?raw=true)
+
 3. Scanned My Kali VM (Initial Scan)
 ~ sudo nmap 10.0.2.16
 Result:
@@ -59,13 +60,17 @@ All ports closed (no active services).
 ~ sudo systemctl status ssh
 SSH now listening on port 22.
 
+![SSH_enabled](https://github.com/beefychipmunky/daily_cyber_labs/blob/main/labs/screenshots/ssh_enabled.png?raw=true)
+
 5. Re-scanned After Enabling SSH
 ~ sudo nmap 10.0.2.16
 Result:
 22/tcp open ssh
 
 6. Performed Service Version Detection
-https://github.com/beefychipmunky/daily_cyber_labs/blob/main/labs/screenshots/nmap_sV_scan.png?raw=true
+
+![nmap_sV_scan](https://github.com/beefychipmunky/daily_cyber_labs/blob/main/labs/screenshots/nmap_sV_scan.png?raw=true)
+
 ~ sudo nmap -sV 10.0.2.16
 Result:
 OpenSSH 10.0p2 Debian 5 (protocol 2.0)
@@ -90,9 +95,6 @@ Nmap is used daily for:
 - Exposure management
 - Penetration testing reconnaissance
 Understanding how to read and generate these scan results is a foundational cybersecurity skill.
-
-📂 Screenshots
-(Placeholder — adding screenshots soon)
 
 ✔ Status
 Completed: 2025-12-08
