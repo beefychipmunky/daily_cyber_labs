@@ -87,3 +87,14 @@ Wireshark capture file: eth0_dns_capture.pcapng (optional)
 🎯 End of Lab
 
 This lab demonstrates practical packet analysis skills used in SOC roles—DNS patterns are one of the most common signals analysts investigate.
+
+## 📸 Screenshots
+
+### 1. DNS Query and Ping
+![DNS Query and Ping](../screenshots/dns_query_and_ping.png)
+
+### 2. DNS Query Packet – Detailed View
+![DNS Query Packet Details](../screenshots/wireshark_dns_query_view.png)
+
+### 3. Filtered DNS Responses
+![Filtered DNS Responses](../screenshots/dns_response_filtered_view.png)
