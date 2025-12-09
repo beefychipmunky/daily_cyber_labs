@@ -41,6 +41,8 @@ It serves as both a personal learning system and a public portfolio for recruite
 | Date | Lab Name | Description |
 |------|----------|-------------|
 | 2025-12-08 | Basic Nmap Host Discovery & Port Scanning | Network scanning, host discovery, SSH exposure analysis |
+| 2025-12-09 | DNS Query & Response Analysis | DNS request/response analysis using Wireshark, filtering DNS packets, understanding domain resolution |
+
 
 
 (New labs are added daily.)
