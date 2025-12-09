@@ -91,7 +91,7 @@ This lab demonstrates practical packet analysis skills used in SOC roles—DNS p
 ## 📸 Screenshots
 
 ### 1. DNS Query and Ping
-![DNS Query and Ping](../screenshots/dns_query_and_ping.png)
+![DNS Query and Ping](https://github.com/beefychipmunky/daily_cyber_labs/blob/main/labs/screenshots/dns_query_and_ping.png?raw=true)
 
 ### 2. DNS Query Packet – Detailed View
 ![DNS Query Packet Details](../screenshots/wireshark_dns_query_view.png)
